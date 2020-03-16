@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 450 250" style="enable-background:new 0 0 450 250;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000000;}
+	.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st2{font-family:'ArialRoundedMTBold';}
+	.st3{font-size:17.0333px;}
+	.st4{stroke:#000000;}
+</style>
+<ellipse pointer-events="none" class="st0" cx="160.2" cy="20" rx="12.5" ry="12.5"/>
+<ellipse pointer-events="none" class="st0" cx="100.2" cy="90" rx="12.5" ry="12.5"/>
+<ellipse pointer-events="none" class="st0" cx="295.2" cy="90" rx="12.5" ry="12.5"/>
+<path pointer-events="none" class="st1" d="M25.2,77.5l126-49.5"/>
+<path pointer-events="none" class="st1" d="M100.2,77.5l51-49.5"/>
+<path pointer-events="none" class="st1" d="M175.2,77.5l-5-49.5"/>
+<path pointer-events="none" class="st1" d="M296.5,77.9L170.2,28"/>
+<g transform="translate(759.5,3.5)">
+	<text transform="matrix(1 0 0 1 -349.5158 22.062)" class="st2 st3">8X8</text>
+</g>
+<g transform="translate(759.5,83.5)">
+	<text transform="matrix(1 0 0 1 -349.5158 12.062)" class="st2 st3">4X4</text>
+</g>
+<rect x="12.7" y="77.5" class="st4" width="25" height="25"/>
+<rect x="162.8" y="77.5" class="st0" width="25" height="25"/>
+</svg>
