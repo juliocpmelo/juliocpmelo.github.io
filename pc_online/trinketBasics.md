@@ -66,6 +66,7 @@ A execução do código é feita na area do terminal/plot. Apenas ponha seus blo
 
 É possível copiar códigos compartilhados do trinket de outra pessoa usando o botão "remix" que fica a parte superior de códigos compartilhados. Use o exemplo abaixo para copiar para sua pasta "My Trinkets" e edite usando sua conta do trinket.
 
+<div class="iframe_container">
 <iframe src="https://trinket.io/embed/blocks/166fa117f0?hideGeneratedCode=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-
+</div>
 
