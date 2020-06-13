@@ -9,7 +9,7 @@ Usar o editor de código em blocos do trinket não é difícil, siga os passos a
 
 ![Criaçao de um trinket de Blocos](img/trinket_setup_1.gif)
 
-No editor de código você tem opções como salvar, adicionar a algum diretório, deletar e compartilhar seu codigo via trinket.io. 
+No editor de código você tem opções como salvar, adicionar a algum diretório, deletar e compartilhar seu codigo via trinket.io. Para compartilhar uma versão do seu código, use o botão compartilhar e copie o link fornecido.
 
 ##  Elementos do Editor de Código
 
@@ -65,6 +65,12 @@ A execução do código é feita na area do terminal/plot. Apenas ponha seus blo
 ### Usando códigos de Exemplo
 
 É possível copiar códigos compartilhados do trinket de outra pessoa usando o botão "remix" que fica a parte superior de códigos compartilhados. Use o exemplo abaixo para copiar para sua pasta "My Trinkets" e edite usando sua conta do trinket.
+
+![Criaçao de um trinket de Blocos](img/trinket_setup_7.gif)
+
+Caso você já esteja logado no trinket, a opção de login não aparecerá. O botão remix permite que você edite o código inline ou resete o código para a versão original. Códigos remixados podem ser acessados no diretório "My trinkets" da sua conta do trinket.
+
+Tente copiar o código abaixo e editá-lo para ter certeza e que tudo está funcionando:
 
 <div class="iframe_container">
 <iframe src="https://trinket.io/embed/blocks/166fa117f0?hideGeneratedCode=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
