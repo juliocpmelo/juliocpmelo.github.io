@@ -1,6 +1,6 @@
 #Jenkiyll config
 name: Test Pages
 description: Testing gh pages with md
-url: "http://juliocpmelo.github.io/pc_online"
+url: "http://juliocpmelo.github.io/lop_tutorial_2020"
 markdown: kramdown
 highlighter: rouge
