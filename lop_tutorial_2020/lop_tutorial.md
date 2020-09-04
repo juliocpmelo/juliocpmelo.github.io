@@ -85,28 +85,94 @@ Nessa tela o professor pode visualizar listas cadastradas, pesquisar por listas 
 Para criar uma nova lista, clique no botão "ciar lista", na tela seguinte aparecerão as questões cadastradas no sistema que podem ser usadas em listas de exercícios. A tela foi separada em duas imagens, para ficar mais facil de explicar.
 
 ### Informações básicas da lista e novas questões
+
 <img src="img/lop_nova_lista.png">
 
 Nesta parte da tela o professor pode adicionar um título à lista(1); que é obrigatório para a criação, pesquisar questões cadastradas pelo código ou nome(2); visualizar uma questão (3), que é a mesma visualização usada na parte de cadastro de exercícios; adicionar uma questão à lista(4) atual.
 
 ### Sumário da Lista
+
 <img src="img/lop_nova_lista2.png">
 
 Nesta parte da tela o professor tem uma visão geral da lista criada com a lista de questões adicionadas que podem ser removidas caso desejado (1). Há ainda o botão "criar lista" que adiciona a lista de exercícios criada à lista mostrada na tela anterior.
 
 ## Criando Provas
 
-Após logar com a conta de professor, o professor pode acessar o menu "provas" na parte superior, que leva para a lista de provas já cadastradas no sistama. 
+Após logar com a conta de professor, o professor pode acessar o menu "provas" na parte superior, que leva para a lista de provas já cadastradas no sistama. Similar ao tópico anterior, nesta tela o professor pode ver as provas já cadastradas no sistema bem como as __senhas__ cadastradas para que os alunos tenham acesso à prova em questão caso o professor decida usá-la.
+
+Após clicar no botão "Criar Prova" o professor é levado à tela abaixo:
+
+<img src="img/lop_nova_prova.png">
+
+Nesta tela o professor poderá adicionar um título à prova(1); configurar uma senha para acesso à prova (2), essa senha __deve ser passada aos alunos__ para que eles possam resolver as questões da prova; configurar como o professor gostaria que os casos de teste fossem apresentados aos alunos(3). 
+
+Essa última parte do menu configura o sistema para que, ao executar a correação da saída dos programas, não mostre todos os casos de teste que falharam. Caso a opção "Mostrar apenas o Primeiro" estiver selecionada, o aluno só terá acesso ao primeiro caso de teste e não a todos os casos de teste, como é mostrado nas listas de exercício. O restante da tela é similar ao que foi mostrado na construção de lista de exercícios.
 
 ## Atribuindo uma Lista de Exercício à Turma
 
+Após cadastrada uma lista de exercícios pode ser adicionada às turmas que o professor faz parte usando o menu da turma no sistema. Após logar na conta de professor, o professor seleciona uma turma clicando no botão "Entrar" da turma correspondente. Ao entrar na turma o professor tem acesso aos menus relacionados àquela turma que são: Participantes, Listas, Provas, Solicitações e Dasbhoard. Para adicionar uma lista à turma, clique no menu "Listas" que levará à tela que exibe todas as listas de exercício já adicionadas na turma em questão.
+
+<img src="img/lop_turma_listas.png">
+
+Nesta tela, o professor pode cadastrastrar uma nova lista de exercícios na turma (1); acessar submissões de uma lista de exercícios já cadastrada(2) ou deletar uma lista cadastrada(3). Ao clicar em "Adicionar novas Listas" uma lista contendo todas as listas de execício cadastradas no sistema será exibida, o professor pode ecolher uma lista e adicioná-la.
+
+__OBS:__ Atualmente, ao adicionar listas o sistema pergunta se gostaria de cadastrar um deadline. Essa função não está funcionando corretamente. No entanto, é possível adicionar deadlines para entrega das listas usando o botão "Acessar" e depois o botão "Adicionar Data limite para submissões".
+
 ## Atribuindo uma Prova à turma
 
-## Corrigindo listas
+Para atribiur uma prova à turma o professor deve seguir da mesma maneira que atribui listas. Primeiro entrar na turma correspondente clicando no botão "Entrar" a partir da tela inicial do sistema, depois clicar no botão Provas, na parte superior. Na tela que segue serão exibidas todas as provas já cadastradas na turma:
 
-## Corrigindo provas
+<img src="img/lop_turma_provas.png">
+
+Nesta tela o professor pode adicionar novas provas à turma(1) de uma forma similar à adição de novas listas, da seção anterior. Caso hajam provas cadastradas o professor pode corrigir(2) ou acessar(3) as submissões, bem como excluir uma prova cadastrada para a turma.
+
+Diferente das listas de exercício, provas só ficam disponíveis para que os alunos respondam após o professor "Aplicar" a prova. Para realizar essa ação acesse a prova em questão através do botão "Acessar" e clique em "Aplicar prova". Análogamente, após aplicar a prova o professor pode usar o botão "Recolher prova" nessa mesma tela para recolher a prova, evitando assim que mais submissões sejam enviadas após o prazo para a resolução da prova ter terminado.
+
+## Verificando soluções submetidas pelos alunos nas listas de exercício
+
+O professor pode acessar todas as submissões dos alunos para uma dada lista de exercícios através do botão "Acessar" que pode ser visto no menu de listas. A tela que segue permite ao professor verificar, questão à questão, as sumissões enviadas pelos alunos.
+
+<img src="img/lop_turma_corrigir_lista.png">
+
+Nesta tela o professor pode acessar a questão específica(1), para fins de teste; usando o botão "mais"(2) o professor pode ainda verificar a última submissão dos alunos(3) ou verificar plágios(4) entre as submissões desta questão.
+
+Ao clicar em "ver ultima submissão dos alunos" o professor acessa a tela de submissões correspondente à questão específica:
+
+<img src="img/lop_turma_corrigir_lista2.png">
+
+Nesta tela o professor pode usar o menu superior para navegar entre as questões da lista(1); verificar o enunciado da questão (2) e acessar todas as submissões enviadas pelos alunos no formato _Grid_.
+
+Embora seja menos intuitivo, é possível também acessar as submissões de provas ou listas de um aluno específico usando o menu "Participantes", uma vez clicado no "i" correspondente ao aluno, o professor tem acesso a uma tela com as submissões relativas as Provas e Listas daquele aluno específico.
+
+Diferente do sistema de Provas, listas não tem uma nota associada, os alunos tem acesso ao score de acordo com os casos de teste, bem como o professor.
+
+## Verificando submissões de provas dos alunos
+
+Similar ao sistema de listas, o professor tem acesso às submissões de provas dos alunos as telas são as mesmas se o professor seguir pelo botão "Acessar", contendo as mesmas opções do menu de listas. No entanto, na tela de provas o professor pode usar o botão "Corrigir". Ao clicar neste botão o professor recebe uma lista com todos os alunos cadastrados onde ele pode "Corrigir" a prova de cada um.
+
+<img src="img/lop_aluno_corrigir_prova.png">
+
+Após entrar na correção para um aluno específico o professor verá o enunciado da questão, abaixo do enunciado a tela apresentada àcima apresenta:
+1. O código submetido pelo aluno
+2. O código de teste da questão, que foi cadastrado quando a questão foi criada e adicionada no sistema.
+3. Os resultados dos testes do código do aluno submetidos ao sistema. Esses resultados são gerados quando a página é aberta, submetendo  ao sistema novamente o código mostrado no quadro 1.
+4. Campos relacionados ao feedback de correção da questão. Este campo é divido em 4 partes principais:
+   1. A nota dada pelo professor visto à questão. Neste quadro também é apresentada uma nota dada pelo sistema, usando a correção automática.
+   2. Um campo de texto para comentários ao aluno.
+   3. Um conjunto de feedbacks "rápidos" que o professor pode usar para sinalizar ao aluno a justificativa para a nota.
+5. Botões para passar para as próximas questões dos alunos, nesse caso a prova tem 4 questões.
 
 ## Checando plágio
+
+Para verificar plágios, tanto nas listas quanto nas provas, o professor usa o botão "Acessar", escolhe a questão desejada, clica em "mais" e depois "verificar plágio" como visto na seção à respeito da verificação das submissões às listas de exercício.
+
+<img src="img/lop_turma_corrigir_lista.png">
+
+Como já dito, nesta tela o professor pode, usando o botão "mais"(2), verificar a última submissão dos alunos ou verificar plágios(4) entre as submissões desta questão.
+
+<img src="img/lop_turma_verificar_plagio.png">
+
+Nesta tela o professor pode navegar entre as questões da lista/prova(1); selecionar a linguagem a qual quer fazer a checagem de plágio (Essa lista contém as linguagens escolhidas ao criar a turma) e gerar um link de checagem de plágio(3). Após clicar em Gerar link, um novo link será gerado pela ferramenta [moss](https://theory.stanford.edu/~aiken/moss/). A lista inicia vazia e é atualizada assim que o link com a verificação do plágio estiver pronto, a verificação de plágio pode demorar alguns minutos até que um link seja retornado.
 
 # Alunos
 
