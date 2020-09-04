@@ -67,10 +67,50 @@ Nesta parte o professor pode testar o exercicio como se fosse um aluno. É poss�
 
 Segue um vídeo mostrando um cadastro de uma questão simples:
 
+<video controls>
+    <source src="vid/novo_exercicio.mp4" type="video/mp4">
+    Como criar uma turma / Sem vídeo
+</video>
+
+Após salvar a questão ela fica disponível na lista de questões como todas as outras, caso tenha sido marcado que a questão é __Pública (para uso em lista)__, caso a questão seja __Oculta (para uso em provas)__ só será possível acessá-la ao criar uma prova.
+
+## Criando Listas de exercício
+
+Após logar com a conta de professor, o professor pode acessar o menu "listas" na parte superior, que leva para a lista de listas de exercícios já cadastradas no sistama. 
+
+<img src="img/lop_listas_exercicios.png">
+
+Nessa tela o professor pode visualizar listas cadastradas, pesquisar por listas pelo nome (2), criar novas listas de exercícios(1), visualizar listas já cadastradas(3) e editar listas que ele cadastrou(4).
+
+Para criar uma nova lista, clique no botão "ciar lista", na tela seguinte aparecerão as questões cadastradas no sistema que podem ser usadas em listas de exercícios. A tela foi separada em duas imagens, para ficar mais facil de explicar.
+
+### Informações básicas da lista e novas questões
+<img src="img/lop_nova_lista.png">
+
+Nesta parte da tela o professor pode adicionar um título à lista(1); que é obrigatório para a criação, pesquisar questões cadastradas pelo código ou nome(2); visualizar uma questão (3), que é a mesma visualização usada na parte de cadastro de exercícios; adicionar uma questão à lista(4) atual.
+
+### Sumário da Lista
+<img src="img/lop_nova_lista2.png">
+
+Nesta parte da tela o professor tem uma visão geral da lista criada com a lista de questões adicionadas que podem ser removidas caso desejado (1). Há ainda o botão "criar lista" que adiciona a lista de exercícios criada à lista mostrada na tela anterior.
+
+## Criando Provas
+
+Após logar com a conta de professor, o professor pode acessar o menu "provas" na parte superior, que leva para a lista de provas já cadastradas no sistama. 
+
+## Atribuindo uma Lista de Exercício à Turma
+
+## Atribuindo uma Prova à turma
+
+## Corrigindo listas
+
+## Corrigindo provas
+
+## Checando plágio
 
 # Alunos
 
-# Entrado em uma Turma
+## Entrado em uma Turma
 
 Para entrar em uma turma, faça o cadastro no Sistema LoP e entre com sua conta de aluno, de mãos do código da turma que foi fornecido pelo professor siga os passos do vídeo abaixo:
 
@@ -80,3 +120,9 @@ Para entrar em uma turma, faça o cadastro no Sistema LoP e entre com sua conta 
 </video>
 
 Preencha corretamente sua matrícula para ajudar o professor nas etapas avaliativas.
+
+## Resolvendo um exercício avulso
+
+## Resolvendo uma lista de exercícios
+
+## Resolvendo uma prova
