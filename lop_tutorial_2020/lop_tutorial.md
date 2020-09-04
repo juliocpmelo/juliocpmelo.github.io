@@ -1,4 +1,7 @@
-<img src="img/lop_title.png">
+
+<p align="center">
+    <img width="250px" src="img/lop_logo.png"/>
+</p>
 
 # Tutorial do sistema LOP
 
