@@ -6,7 +6,7 @@ Para entrar em uma turma, faça o cadastro no Sistema LoP e entre com sua conta 
 
 <video controls>
     <source src="vid/lop_entrar_turma.mp4" type="video/mp4">
-    Como criar uma turma / Sem vídeo
+    Como entrar em uma turma / Sem vídeo
 </video>
 
 Preencha corretamente sua matrícula para ajudar o professor nas etapas avaliativas.
