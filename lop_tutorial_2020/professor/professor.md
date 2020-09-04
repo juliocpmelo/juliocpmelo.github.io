@@ -1,5 +1,7 @@
 # Professores
 
+Este tutorial cobre as operações básicas no lop que serão necessárias para 2020.6, espero que gostem, qualquer coisa entrem em contato que atualizo o tutorial.
+
 ## Criando novas turmas
 
 Para criar novas turmas, após logar no sistema com sua conta de professor, siga os passos do video abaixo para criar uma turma:
@@ -174,21 +176,3 @@ Como já dito, nesta tela o professor pode, usando o botão "mais"(2), verificar
 
 Nesta tela o professor pode navegar entre as questões da lista/prova(1); selecionar a linguagem a qual quer fazer a checagem de plágio (Essa lista contém as linguagens escolhidas ao criar a turma) e gerar um link de checagem de plágio(3). Após clicar em Gerar link, um novo link será gerado pela ferramenta [moss](https://theory.stanford.edu/~aiken/moss/). A lista inicia vazia e é atualizada assim que o link com a verificação do plágio estiver pronto, a verificação de plágio pode demorar alguns minutos até que um link seja retornado.
 
-# Alunos
-
-## Entrado em uma Turma
-
-Para entrar em uma turma, faça o cadastro no Sistema LoP e entre com sua conta de aluno, de mãos do código da turma que foi fornecido pelo professor siga os passos do vídeo abaixo:
-
-<video controls>
-    <source src="vid/lop_entrar_turma.mp4" type="video/mp4">
-    Como criar uma turma / Sem vídeo
-</video>
-
-Preencha corretamente sua matrícula para ajudar o professor nas etapas avaliativas.
-
-## Resolvendo um exercício avulso
-
-## Resolvendo uma lista de exercícios
-
-## Resolvendo uma prova
