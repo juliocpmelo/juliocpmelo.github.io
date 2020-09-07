@@ -24,16 +24,45 @@
     </head>
     <body class="vscode-light">
         <h1 id="alunos">Alunos</h1>
+<p>Para se cadastrar no sistema acesse o site <a href="http://lop.natalnet.br">lop.natalnet.br</a> e realize o cadastro a partir da tela de login do sistema. <strong>Por Favor</strong> registre seu nome completo como aparece nas listas de chamada do sistema acadêmico, a fim de facilitar o processo de correção dos exercícios pelo professor.</p>
 <h2 id="entrado-em-uma-turma">Entrado em uma Turma</h2>
-<p>Para entrar em uma turma, faça o cadastro no Sistema LoP e entre com sua conta de aluno, de mãos do código da turma que foi fornecido pelo professor siga os passos do vídeo abaixo:</p>
+<p>Para entrar em uma turma, após fazer o cadastro e entrar com sua conta de aluno, de mãos do código da turma que foi fornecido pelo professor siga os passos do vídeo abaixo:</p>
 <video controls>
     <source src="vid/lop_entrar_turma.mp4" type="video/mp4">
-    Como criar uma turma / Sem vídeo
+    Como entrar em uma turma / Sem vídeo
 </video>
 <p>Preencha corretamente sua matrícula para ajudar o professor nas etapas avaliativas.</p>
 <h2 id="resolvendo-um-exercício-avulso">Resolvendo um exercício avulso</h2>
+<p>Após entrar no sistema você pode resolver exercícios avulsos sem compromisso algum com disciplinas. Na tela inicial, clique no botão &quot;Exercícios&quot; na parte superior para acessar a lista de exercícios cadastrados no sistema.</p>
+<img src="img\lop_aluno_exercicio.png">
+<p>Nesta tela você tem inicialmente uma opção de &quot;Exibir Filtro&quot;, na figura acima, esta opção foi clicada para exibir as opções de filtragem de questão(1); é possível também visualizar uma questão(3), que mostra o enunciado da mesma, ou acessá-la(2). Usando o botão &quot;Acessar&quot; em uma questão específica, irá levá-lo para a tela que permite a resolução do exercício.</p>
+<img src="img\lop_aluno_resolver_exercicio.png">
+<p>Na tela resolução de exercício múltiplos campos são exibidos:</p>
+<ol>
+<li><strong>Enunciado da questão</strong> junto com todas as informações que você precisa interpretar para resolvê-la.</li>
+<li><strong>Exemplos de entrada e saída</strong>: No lop, o seu programa é executado junto com um conjunto de entradas a fim de produzir uma saída específia. No caso da imagem, o programa irá ser executado e receber do usuário os números 90 e 1.70, depois disso o programa deve imprimir: &quot;IMC: 31.14186851211073&quot;.</li>
+<li><strong>Caixa de seleção da linguagem</strong>: Enquanto resolve questões avulsas, você pode usar qualquer linguagem suportada pelo sistema para submeter a solução, selecione a linguagem que quiser treinar.</li>
+<li><strong>Tema do editor de texto</strong>: Você pode selecionar um tema que fique melhor para você editar/ver o código.</li>
+<li><strong>Submeter questão</strong>: Quando tiver um código que você acha que funciona para o problema, você pode submetê-lo para correção. O sistema irá executar o código e mostrar o resultado da correção na tela ao lado. Uma solução pode ser submetida quantas vezes você quiser.</li>
+<li><strong>Salvar Rascunho</strong>: Um rascunho da questão é salvo no seu navegador para que você possa continuar depois.</li>
+<li><strong>Resultados da Execução</strong>: Ao submeter uma questão para correção os resultados são exibidos nesta tela.</li>
+</ol>
+<p>A caixa que fala &quot;Dificuldade&quot; é reservada para uma funtura função do LoP, mas ainda não está implementada, você pode ignorar esta caixa de seleção. Usando a tela mostrada, é possível submeter questões ao sistema para verificação da corretude. Quando uma questão dá um resultado errado, o sistema exibirá qual foi a entrada fornecida e qual foi o resultado obtido da execução.</p>
+<img src="img\lop_aluno_resolver_exercicio2.png">
+<p>Quando uma solução é submetida o sistema realiza os testes especificados pelo professor e exibe para você quais resultados o seu programa produziu e quais eram os resultados esperados. No caso mostrado na figura àcima, o primeiro teste(2.1) falhou pois a saída o do programa:</p>
+<pre><code><code><div>IMC: 31.14186851211073
+erro!
+</div></code></code></pre>
+<p>Foi diferente da saída esperada pelo sistema <code>IMC: 31.14186851211073</code>. Já para o segundo caso de teste(2.2) o programa forneceu a saída esperada corretamente.</p>
 <h2 id="resolvendo-uma-lista-de-exercícios">Resolvendo uma lista de exercícios</h2>
+<p>Listas de exercícios são cadastrada pelo professor responsável por uma dada turma, para acessar as listas que o seu professor cadastrou na sua turma, de pois de realizar login, na tela inicial entre na turma usando o botão &quot;Entrar&quot;. Nessa tela, acesse na parte superior o menu &quot;Listas&quot;, se o professor tiver cadastrado alguma lista ela aparecerá na tela que segue.</p>
+<img src="img\lop_aluno_resolver_lista.png">
+<p>Nesta tela você tem informações a respeito do Nome da Lista(1); Seu progresso na mesma (2); A data de inicio e de entrega da lista (3) e, por fim você pode &quot;Acessar&quot;(4) a lista para entrar na tela de resolução.</p>
+<p>Na tela de resolução você tem acesso às questões da lista e pode acessá-las para entrar em uma tela similar à tela de resolução de Exercícios, já explicada anteriormente.</p>
 <h2 id="resolvendo-uma-prova">Resolvendo uma prova</h2>
+<p>Da mesma forma a resolução de listas de exercício, para resolver uma prova você deve logar no sistema, acessar sua turma pelo botão &quot;Entrar&quot; e clicar no botão &quot;Provas&quot; na parte superior. Nesta tela, se o professor tiver cadastrado alguma prova na turma, a prova em questão aparecerá listada, em uma forma similar ao que foi visto para as listas de exercício. No entanto, só é possível acessar uma prova se o professor já estiver &quot;aplicando&quot; a mesma.</p>
+<img src="img\lop_aluno_resolver_prova.png">
+<p>A imagem mostra como a prova é listada antes e depois do inicio da &quot;aplicação&quot; da mesma. Diferente das listas de exercício, provas não tem uma data final, a prova é finalizada manualmente pelo professor. Para acessar a prova, use o botão &quot;Acessar&quot; e entre a <strong>senha da prova</strong> que deve ser fornecida pelo professor. A tela de resolução de questões da prova é similar aquela usada para resolver listas de exercício, bem como os mencanismos de &quot;Acessar&quot; e submeter uma questão permanecem os mesmos. Após a finalização da prova, não é mais possível enviar submissão de resolução de questões para ela.</p>
 
     </body>
     </html>

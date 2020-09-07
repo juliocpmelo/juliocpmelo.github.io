@@ -1,5 +1,7 @@
 # Professores
 
+Para se cadastrar como professor no sistema, faça o cadastro normal clicando em "Cadastre-se" a partir da tela de login do sistema. Ao realizar o cadastro você terá um perfil de "Aluno", após isso entre em contato com a equipe de gerenciamento do sistema para que seu perfil seja migrado para um perfil de Professor.
+
 Este tutorial cobre as operações básicas no lop que serão necessárias para 2020.6, espero que gostem, qualquer coisa entrem em contato que atualizo o tutorial.
 
 ## Criando novas turmas
@@ -160,9 +162,11 @@ Após entrar na correção para um aluno específico o professor verá o enuncia
 3. Os resultados dos testes do código do aluno submetidos ao sistema. Esses resultados são gerados quando a página é aberta, submetendo  ao sistema novamente o código mostrado no quadro 1.
 4. Campos relacionados ao feedback de correção da questão. Este campo é divido em 4 partes principais:
    1. A nota dada pelo professor visto à questão. Neste quadro também é apresentada uma nota dada pelo sistema, usando a correção automática.
-   2. Um campo de texto para comentários ao aluno.
+   2. Um campo de texto para comentários sobre a questão ao aluno.
    3. Um conjunto de feedbacks "rápidos" que o professor pode usar para sinalizar ao aluno a justificativa para a nota.
 5. Botões para passar para as próximas questões dos alunos, nesse caso a prova tem 4 questões.
+
+É importante notar que as informações inseridas na interface de correção __são apenas visíveis ao professor__.
 
 ## Checando plágio
 
